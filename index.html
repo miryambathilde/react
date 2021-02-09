@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo a programar con REACT</title>
+    <!-- CDN LINKS REACT -->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <!-- LIBRERIA STANDALONE BABEL , PARA ENTORNOS QUE NO SEAN NODE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!-- aqui renderizamos todos los elementos que programemos con REACT  -->
+    <div id="root"></div>
+</body>
+<!-- archivo donde vamos a escribir toda la lógica de REACT y así
+la librería que hemos integrado se encargará de hacer el compilado  -->
+<script type="text/babel" src="app-lista-de-tareas-con-borrado.jsx"></script>
+</html>
